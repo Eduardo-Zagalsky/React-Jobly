@@ -1,0 +1,12 @@
+.nav-item {
+    font-family: 'Times New Roman', Times, serif;
+    color: lightskyblue;
+    margin-left: 20px;
+    padding-top: 15px;
+    text-align: center;
+    font-size: 2rem;
+    text-decoration: none;
+    border-style: groove;
+    border-color: white;
+    background-color: rgb(50, 50, 178);
+}
