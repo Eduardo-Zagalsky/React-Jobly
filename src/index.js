@@ -6,6 +6,8 @@ import Companies from './companies';
 import CompanyDetail from './company';
 import Jobs from "./jobs";
 import JobDetail from './job';
+import Login from './login';
+import Signup from './signup';
 import "./index.css"
 
 const App = () => (
@@ -27,10 +29,10 @@ const App = () => (
       <JobDetail />
     </Route>
     <Route exact path="/signup" >
-      {/* <Signup/> */}
+      <Signup />
     </Route>
     <Route exact path="/login" >
-      {/* <Login/> */}
+      <Login />
     </Route>
     <Route exact path="/profile" >
       {/* <Profile/> */}
